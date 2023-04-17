@@ -20,8 +20,8 @@
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--cor-1);
   border: 1px solid var(--cor-2);
-  border-radius: 4px;
   padding: 12px;
+  border-radius: 4px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -31,8 +31,8 @@
 .form textarea:focus {
   outline: none;
   border-color: var(--cor-p1);
-  box-shadow: 0 0 0 1px #fea;
   background: var(--cor-0);
+  box-shadow: 0 0 0 2px #fea;
 }
 
 @media (max-width: 600px) {
